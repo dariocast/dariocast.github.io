@@ -1,6 +1,7 @@
 import 'package:dariocast/models/project_model.dart';
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
+import 'package:dariocast/widgets/theme_inherited_widget.dart';
 
 class ProjectWidget extends StatelessWidget {
   final Project _project;
@@ -24,7 +25,9 @@ class ProjectWidget extends StatelessWidget {
               Expanded(
                   flex: 40,
                   child: Image.asset(
-                    _project.image,
+                    ThemeSwitcher.of(context).isDarkModeOn
+                        ? _project.darkImage
+                        : _project.image,
                     width: width * .25,
                     height: width * .25,
                   )),

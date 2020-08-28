@@ -30,7 +30,7 @@ class AboutTab extends StatelessWidget {
                 height: 20,
               ),
               Text(
-                'iOS. Android. Football. Spotify Music.\nLikes Traveling.',
+                'iOS. Android. Web. IT Security.\n Food. Football. Music.\nLikes Travelling.',
                 style: Theme.of(context).textTheme.caption,
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,

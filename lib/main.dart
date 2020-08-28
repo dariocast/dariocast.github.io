@@ -11,13 +11,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ThemeSwitcherWidget(
       initialDarkModeOn: false,
-      child: Adityadroid(),
+      child: Dariocast(),
     );
   }
 }
 
-class Adityadroid extends StatelessWidget {
-  const Adityadroid({
+class Dariocast extends StatelessWidget {
+  const Dariocast({
     Key key,
   }) : super(key: key);
 
