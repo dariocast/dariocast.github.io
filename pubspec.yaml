@@ -63,6 +63,6 @@ flutter:
   fonts:
     - family: OpenSans
       fonts:
-        - asset: fonts/OpenSans-Regular.ttf
+        - asset: fonts/OpenSans/OpenSans-Regular.ttf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
