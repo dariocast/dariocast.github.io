@@ -3,6 +3,21 @@ import 'assets.dart';
 
 final List<Project> projects = [
   Project(
+      name: 'Quaderno Torneo Android',
+      image: Assets.quaderno,
+      darkImage: Assets.quaderno,
+      description:
+          'Quaderno Torneo è l\'app Android per la gestione, i risultati, le classifiche e le statistiche live del torneo ACG a Piano di Sorrento',
+      link:
+          'https://play.google.com/store/apps/details?id=it.dariocast.quadernotorneo'),
+  Project(
+      name: 'Quaderno Torneo iOS',
+      image: Assets.quaderno,
+      darkImage: Assets.quaderno,
+      description:
+          'Quaderno Torneo è l\'app iOS per la gestione, i risultati, le classifiche e le statistiche live del torneo ACG a Piano di Sorrento',
+      link: 'https://apps.apple.com/us/app/quaderno-torneo/id1575877834'),
+  Project(
       name: 'Torneo ACG',
       image: Assets.torneo,
       darkImage: Assets.torneobianco,

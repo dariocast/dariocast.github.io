@@ -10,4 +10,5 @@ class Assets {
   static const torneo = 'images/torneo.png';
   static const torneobianco = 'images/torneo_b.png';
   static const kermit = 'images/kermit.png';
+  static const quaderno = 'images/quaderno.png';
 }
