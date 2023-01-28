@@ -45,11 +45,11 @@ class _HomePageState extends State<HomePage> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.account_circle),
-            title: Text('About'),
+            label: 'About',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.mobile_screen_share),
-            title: Text('Projects'),
+            label: 'Projects',
           )
         ],
         currentIndex: _selectedIndex,

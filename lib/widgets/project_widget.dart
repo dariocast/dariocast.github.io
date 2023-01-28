@@ -45,14 +45,14 @@ class ProjectWidget extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(_project.name,
-                          style: Theme.of(context).textTheme.title),
+                          style: Theme.of(context).textTheme.headlineMedium),
                       SizedBox(
                         height: height * .01,
                       ),
                       Text(
                         _project.description,
                         textScaleFactor: 1.2,
-                        style: Theme.of(context).textTheme.caption,
+                        style: Theme.of(context).textTheme.bodySmall,
                       ),
                     ],
                   ),

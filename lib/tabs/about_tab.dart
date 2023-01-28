@@ -31,7 +31,7 @@ class AboutTab extends StatelessWidget {
               ),
               Text(
                 'iOS. Android. Web. IT Security.\n Food. Football. Music.\nLikes Travelling.',
-                style: Theme.of(context).textTheme.caption,
+                style: Theme.of(context).textTheme.bodySmall,
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,
               ),
@@ -42,7 +42,7 @@ class AboutTab extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  FlatButton.icon(
+                  TextButton.icon(
                     icon: SizedBox(
                         width: 20,
                         height: 20,
@@ -51,7 +51,7 @@ class AboutTab extends StatelessWidget {
                     onPressed: () =>
                         html.window.open(Constants.PROFILE_GITHUB, 'dariocast'),
                   ),
-                  FlatButton.icon(
+                  TextButton.icon(
                     icon: SizedBox(
                         width: 20,
                         height: 20,
@@ -66,7 +66,7 @@ class AboutTab extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  FlatButton.icon(
+                  TextButton.icon(
                     icon: SizedBox(
                         width: 20,
                         height: 20,
@@ -75,7 +75,7 @@ class AboutTab extends StatelessWidget {
                     onPressed: () => html.window
                         .open(Constants.PROFILE_INSTAGRAM, 'dariocast'),
                   ),
-                  FlatButton.icon(
+                  TextButton.icon(
                     icon: SizedBox(
                         width: 20,
                         height: 20,
@@ -84,7 +84,7 @@ class AboutTab extends StatelessWidget {
                     onPressed: () => html.window
                         .open(Constants.PROFILE_FACEBOOK, 'dariocast'),
                   ),
-                  FlatButton.icon(
+                  TextButton.icon(
                     icon: SizedBox(
                         width: 20,
                         height: 20,
