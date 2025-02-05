@@ -1,0 +1,15 @@
+baseURL = 'https://dariocast.github.io/'
+languageCode = 'en-us'
+title = 'DC Personal Website'
+theme='notrack'
+
+[params]
+author = 'Dario Castellano'
+# optional, defaults to author:
+siteHeading = 'The repo. by Dariocast'
+mainSections = ['blog']
+
+[params.social]
+github = 'dariocast'
+email = 'dariocastellano18@gmail.com'
+twitter = 'dariocast94'
