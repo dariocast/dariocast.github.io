@@ -24,5 +24,17 @@
         
 
         
+            
+        <item>
+          <title>Local K8s Setup</title>
+          <link>http://localhost:1313/blog/local-k8s-setup/</link>
+          <pubDate>Wed, 05 Feb 2025 17:31:20 +0100</pubDate>
+          
+          <guid>http://localhost:1313/blog/local-k8s-setup/</guid>
+          <description><!-- raw HTML omitted -->
+</description>
+        </item>
+            
+        
     </channel>
 </rss>

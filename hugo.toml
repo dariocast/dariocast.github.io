@@ -8,8 +8,12 @@ author = 'Dario Castellano'
 # optional, defaults to author:
 siteHeading = 'The repo. by Dariocast'
 mainSections = ['blog']
+footer = "© 2025 Dario Castellano. All rights reserved."
 
 [params.social]
 github = 'dariocast'
 email = 'dariocastellano18@gmail.com'
 twitter = 'dariocast94'
+linkedin = 'dariocast94'
+facebook = 'dariocast94'
+instagram = 'dariocast94'

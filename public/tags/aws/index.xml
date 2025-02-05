@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>DC Personal Website</title>
-        <link>http://localhost:1313/</link>
+        <link>http://localhost:1313/tags/aws/</link>
         <description>Latest blog posts from DC Personal Website</description>
 
         
@@ -16,11 +16,11 @@
         
 
         
-        <lastBuildDate>Wed, 05 Feb 2025 17:00:23 +0100</lastBuildDate>
+        <lastBuildDate>Wed, 05 Feb 2025 17:31:20 +0100</lastBuildDate>
         
 
         
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" />
         
 
         
