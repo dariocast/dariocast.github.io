@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/aws/</loc>
+    <loc>https://dariocast.github.io/tags/aws/</loc>
     <lastmod>2025-02-05T17:31:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://dariocast.github.io/categories/</loc>
     <lastmod>2025-02-05T17:31:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/devops/</loc>
+    <loc>https://dariocast.github.io/tags/devops/</loc>
     <lastmod>2025-02-05T17:31:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/k8s/</loc>
+    <loc>https://dariocast.github.io/tags/k8s/</loc>
     <lastmod>2025-02-05T17:31:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/local-k8s-setup/</loc>
+    <loc>https://dariocast.github.io/blog/local-k8s-setup/</loc>
     <lastmod>2025-02-05T17:31:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://dariocast.github.io/tags/</loc>
     <lastmod>2025-02-05T17:31:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tech/</loc>
+    <loc>https://dariocast.github.io/categories/tech/</loc>
     <lastmod>2025-02-05T17:31:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://dariocast.github.io/contact/</loc>
     <lastmod>2025-02-05T17:09:41+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://dariocast.github.io/blog/</loc>
     <lastmod>2025-02-05T17:03:19+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://dariocast.github.io/</loc>
     <lastmod>2025-02-05T17:00:23+01:00</lastmod>
   </url>
 </urlset>
