@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>DC Personal Website</title>
+        <link>http://localhost:1313/categories/</link>
+        <description>Latest blog posts from DC Personal Website</description>
+
+        
+        <language>en-us</language>
+        
+
+        
+
+        
+
+        
+
+        
+        <lastBuildDate>Wed, 05 Feb 2025 17:31:20 +0100</lastBuildDate>
+        
+
+        
+        <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+        
+
+        
+            
+        <item>
+          <title>Local K8s Setup</title>
+          <link>http://localhost:1313/blog/local-k8s-setup/</link>
+          <pubDate>Wed, 05 Feb 2025 17:31:20 +0100</pubDate>
+          
+          <guid>http://localhost:1313/blog/local-k8s-setup/</guid>
+          <description><!-- raw HTML omitted -->
+</description>
+        </item>
+            
+        
+    </channel>
+</rss>
