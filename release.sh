@@ -10,4 +10,4 @@ git commit -m "docs: site update on $CURRENT_DATE"
 # Push changes
 git push origin main
 
-echo "Website update completed and pushed. View live at https://dariocast.github.io""
+echo "Website update completed and pushed. View live at https://dariocast.github.io"
