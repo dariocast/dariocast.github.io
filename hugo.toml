@@ -2,12 +2,20 @@ baseURL = 'https://dariocast.github.io/'
 languageCode = 'en-us'
 title = 'DC Personal Website'
 theme='notrack'
+summaryLength = 25
+
 
 [params]
 author = 'Dario Castellano'
 # optional, defaults to author:
-siteHeading = 'The repo. by Dariocast'
-mainSections = ['blog']
+siteHeading = 'D repo. by Dariocast'
+favicon = "letter_d_favicon.png" # The small icon shown in browser tabs
+showTaxonomyLinks = false  # Show e.g. a "Category" button at top of blog page
+
+showBlogLatest = true  # Whether to show it or not
+mainSections = ["blog"]  # Section name of your blog (folder name)
+blogLatestHeading = "My writing"  # Heading above blog summary
+nBlogLatest = 4  # Number of blog post in summary
 footer = "© 2025 Dario Castellano. All rights reserved."
 
 [params.social]
@@ -17,3 +25,6 @@ twitter = 'dariocast94'
 linkedin = 'dariocast94'
 facebook = 'dariocast94'
 instagram = 'dariocast94'
+
+[permalinks]
+blog = "/blog/:year/:month/:slug"
