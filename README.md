@@ -1,4 +1,4 @@
-# dariocast personal website
+# dariocast personal website
 
 [![Deploy Hugo site to Pages](https://github.com/dariocast/dariocast.github.io/actions/workflows/hugo.yaml/badge.svg)](https://github.com/dariocast/dariocast.github.io/actions/workflows/hugo.yaml)
 
