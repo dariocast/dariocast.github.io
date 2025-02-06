@@ -8,6 +8,10 @@
     
     <link rel="stylesheet" type="text/css" href="/css/styles.min.161ac29527340fe6cd42d0fe020b4b1fb8ece483017235511148094a3c06372f.css">
     
+    <link rel="stylesheet" type="text/css" href="https://dariocast.github.io/css/userstyles.css">
+    
+    
+    <link rel="icon" href="/letter_d_favicon.png">
     
     <meta charset="UTF-8">
     <meta name="author" content="Dario Castellano">
@@ -17,7 +21,7 @@
 <body>
 <header class="page-header">
     <div class="myname"> 
-        <h2><a href="https://dariocast.github.io/">The repo. by Dariocast</a></h2> 
+        <h2><a href="https://dariocast.github.io/">D repo. by Dariocast</a></h2> 
     </div>
     <nav>
         <ul class="navbar">
@@ -39,47 +43,8 @@
 
     <h1 class="page-title">Blog</h1>
 
-    
-    <div class="taxonomy-links">
-        <ul>
-            
-            
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-            
-
-            
-                
-            <li><a href="/categories">categories</a></li>
-                
-            
-                
-            <li><a href="/tags">tags</a></li>
-                
-            
-        </ul>
-    </div>
     <article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="https://dariocast.github.io/blog/local-k8s-setup/">Local K8s Setup</a></h3>
+    <h3 class="blog-post-title"><a href="https://dariocast.github.io/blog/2025/02/local-k8s-setup/">Local K8s Setup</a></h3>
 
     <p class="blog-post-info">Posted: <time>2025-02-05</time>
     
@@ -110,25 +75,9 @@
 </li>
 <li>Install AWS CLI:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl <span style="color:#e6db74">&#34;https://awscli.amazonaws.com/AWSCLIV2.pkg&#34;</span> -o <span style="color:#e6db74">&#34;AWSCLIV2.pkg&#34;</span>
-</span></span><span style="display:flex;"><span>sudo installer -pkg AWSCLIV2.pkg -target /
-</span></span></code></pre></div><p>At this point, by default, <code>kubectl</code> tries to verify the local cluster. This local cluster does not exist unless it has been initialized (<em>Minikube</em>, also usable via <em>Docker Desktop</em> or <em>Orbstack</em>).</p>
-<p>## AWS EKS</p>
-<ul>
-<li>
-<p>Run the command <code>aws configure</code></p>
-<ul>
-<li>If you do not remember the client ID and secret for AWS:<br>
-AWS Console -&gt; IAM -&gt; User -&gt; Access Key -&gt; Create Access Key -&gt; Command Line</li>
-<li>In the CLI, enter the required values during configuration.
-<ul>
-<li>Use <code>eu-central-1</code> as the region.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>Add clusters via AWS CLI:</p><span> <a href="https://dariocast.github.io/blog/local-k8s-setup/">Read more...</a></span>
+<pre tabindex="0"><code>curl &#34;https://awscli.amazonaws.com/AWSCLIV2.pkg&#34; -o &#34;AWSCLIV2.pkg&#34;
+sudo installer -pkg AWSCLIV2.pkg -target /
+</code></pre><p>At this point, by default, <code>kubectl</code> tries to verify the local cluster. This local cluster does not exist unless it has been initialized (<em>Minikube</em>, also usable via <em>Docker Desktop</em> or <em>Orbstack</em>).</p><span> <a href="https://dariocast.github.io/blog/2025/02/local-k8s-setup/">Read more...</a></span>
     </p>
 </article>
 

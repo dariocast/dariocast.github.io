@@ -11,7 +11,8 @@ Categories = ['tech']
 - Install helm:
   - `brew install helm`
 - Install AWS CLI:
-```bash
+
+```
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 sudo installer -pkg AWSCLIV2.pkg -target /
 ```
@@ -27,7 +28,7 @@ At this point, by default, `kubectl` tries to verify the local cluster. This loc
 
 - Add clusters via AWS CLI:
 
-```bash
+```
 aws eks update-kubeconfig --name <your-cluster-name> --region eu-central-1
 ```
 

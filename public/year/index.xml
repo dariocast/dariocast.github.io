@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>DC Personal Website</title>
-        <link>https://dariocast.github.io/categories/tech/</link>
+        <link>http://localhost:1313/year/</link>
         <description>Latest blog posts from DC Personal Website</description>
 
         
@@ -16,21 +16,19 @@
         
 
         
-        <lastBuildDate>Wed, 05 Feb 2025 17:31:20 +0100</lastBuildDate>
-        
 
         
-        <atom:link href="https://dariocast.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/year/index.xml" rel="self" type="application/rss+xml" />
         
 
         
             
         <item>
           <title>Local K8s Setup</title>
-          <link>https://dariocast.github.io/blog/2025/02/local-k8s-setup/</link>
+          <link>http://localhost:1313/blog/2025/02/local-k8s-setup/</link>
           <pubDate>Wed, 05 Feb 2025 17:31:20 +0100</pubDate>
           
-          <guid>https://dariocast.github.io/blog/2025/02/local-k8s-setup/</guid>
+          <guid>http://localhost:1313/blog/2025/02/local-k8s-setup/</guid>
           <description><!-- raw HTML omitted -->
 </description>
         </item>
