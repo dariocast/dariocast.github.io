@@ -7,15 +7,7 @@ CURRENT_DATE=$(date +"%Y-%m-%d")
 git add .
 git commit -m "docs: site update on $CURRENT_DATE"
 
-# Git flow release (using timestamp for unique release name)
-RELEASE_NAME=$(date +"%Y%m%d%H%M%S")
-git flow release start "$RELEASE_NAME"
-
-# Finish release without spaces in the message argument
-git flow release finish "$RELEASE_NAME" -m"Release-$RELEASE_NAME"
-
-# Push changes and tags
+# Push changes
 git push origin main
-git push --tags
 
-echo "Release $RELEASE_NAME completed and pushed."
+echo "Website update completed and pushed. View live at https://dariocast.github.io""
