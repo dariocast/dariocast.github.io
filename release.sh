@@ -1,13 +1,18 @@
 #!/bin/bash
 
-# Add changes and commit
-git add .
-git commit -m "docs: site update"
+# Get current date in yyyy-MM-dd format
+CURRENT_DATE=$(date +"%Y-%m-%d")
 
-# Git flow release (using current timestamp as release name)
+# Add changes and commit with date in the message
+git add .
+git commit -m "docs: site update on $CURRENT_DATE"
+
+# Git flow release (using timestamp for unique release name)
 RELEASE_NAME=$(date +"%Y%m%d%H%M%S")
 git flow release start "$RELEASE_NAME"
-git flow release finish -m "Release $RELEASE_NAME" "$RELEASE_NAME"
+
+# Finish release without spaces in the message argument
+git flow release finish "$RELEASE_NAME" -m"Release-$RELEASE_NAME"
 
 # Push changes and tags
 git push origin main
